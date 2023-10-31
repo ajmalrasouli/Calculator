@@ -30,7 +30,7 @@
     width: 60px;
     height: 60px;
     font-size: 20px;
-    background-color: #e0e0e0;
+    background-color: #f2f2f2; /* Button background color */
     color: #333;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -40,22 +40,15 @@
 }
 
 .calc-button.operation {
-    background-color: #f2a541;
+    background-color: #f2a541; /* Color for operation buttons (+, -, *, /) */
     color: white;
     border: 1px solid #c78c3e;
 }
 
 .calc-button:hover {
-    background-color: #dcdcdc;
+    background-color: #dcdcdc; /* Button background color on hover */
 }
 
 .calc-button:active {
     transform: scale(0.95);
-}
-
-.copyright-notice {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    font-size: 12px;
 }
